@@ -5,13 +5,15 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>My diploma</title>
-	<!-- <link rel="stylesheet" href="css/style.css"> -->
 	<link rel="stylesheet" href="css/desktop.css">
 </head>
 <body>
 	<header class="header">
 		<div class="header-row">
 			<a href="#0" class="logo"><img src="svg/noemi-logo.svg" alt="logo"></a>
+			<div class="header-burger">
+				<span class="burger"></span>
+			</div>
 			<nav class="nav-bar">
 				<ul class="nav-items">
 					<li class="nav-item"><a href="#0" class="nav-link">главная</a></li>
@@ -26,42 +28,41 @@
 				Блог о творчестве, спорте и образе жизни
 			</h1>
 		</div>
-		
 	</header>
 	<div class="trends">
 		<h2 class="trends-title">Сейчас в тренде</h2>
 		<section class="trends-content">
 			<article class="trend">
 				<div class="trend-text">
-					<ul class="content-item">
-						<li><a href="#0" class="link-tag">lifestyle</a></li>
-						<li><a href="#0" class="link-tag">interior</a></li>
+					<ul class="content-list">
+						<li class="list-item"><a href="#0" class="link-tag">lifestyle</a></li>
+						<li class="list-item"><a href="#0" class="link-tag">interior</a></li>
 					</ul>
 					<h2><a class="trend-subject" href="#0">Сейчас в тренде: сад на подоконнике</a></h2>
 				</div>
 			</article>
 			<article class="trend trend-two">	
 				<div class="trend-text">
-					<ul class="content-item">
-						<li><a href="#0" class="link-tag">food</a></li>
+					<ul class="content-list">
+						<li class="list-item"><a href="#0" class="link-tag">food</a></li>
 					</ul>
 					<h2><a class="trend-subject" href="#0">Сыры на красивых картинках из интернета: какие они на вкус?</a></h2>
 				</div>
 				</article>
 			<article class="trend trend-three">
 				<div class="trend-text">
-					<ul class="content-item">
-						<li><a href="#0" class="link-tag">lifestyle</a></li>
-						<li><a href="#0" class="link-tag">travel</a></li>
+					<ul class="content-list">
+						<li class="list-item"><a href="#0" class="link-tag">lifestyle</a></li>
+						<li class="list-item"><a href="#0" class="link-tag">travel</a></li>
 					</ul>
 					<h2><a class="trend-subject" href="#0">Собираемся в первый поход в горы</a></h2>
 				</div>
 			</article>
 			<article class="trend trend-four">
 				<div class="trend-text">
-					<ul class="content-item">
-						<li><a href="#0" class="link-tag">food</a></li>
-						<li><a href="#0" class="link-tag">health</a></li>
+					<ul class="content-list">
+						<li class="list-item"><a href="#0" class="link-tag">food</a></li>
+						<li class="list-item"><a href="#0" class="link-tag">health</a></li>
 					</ul>
 					<h2><a class="trend-subject" href="#0">Сейчас в тренде: сколько витамина C в лимонах?</a></h2>
 				</div>
@@ -73,9 +74,9 @@
 			<article class="content">
 				<img class="content-image" src="img/last-post1.jpg" alt="Человек идёт по песку к океану">
 				<div class="content-text">
-					<ul class="content-item">
-						<li><a href="#0" class="link-tag">travel</a></li>
-						<li><a href="#0" class="link-tag">health</a></li>
+					<ul class="content-list">
+						<li class="list-item"><a href="#0" class="link-tag">travel</a></li>
+						<li class="list-item"><a href="#0" class="link-tag">health</a></li>
 					</ul>
 					<h2><a class="subject" href="#0">10 мест, ради которых стоит проснуться на рассвете</a></h2>
 					<time class="datetime">10 июня 2019</time>
@@ -87,9 +88,9 @@
 			<article class="content">
 				<img class="content-image" src="img/last-post2.jpg" alt="Девушка занимается йогой на берегу моря">
 				<div class="content-text">
-					<ul class="content-item">
-						<li><a href="#0" class="link-tag">health</a></li>
-						<li><a href="#0" class="link-tag">lifestyle</a></li>
+					<ul class="content-list">
+						<li class="list-item"><a href="#0" class="link-tag">health</a></li>
+						<li class="list-item"><a href="#0" class="link-tag">lifestyle</a></li>
 					</ul>
 					<h2><a class="subject" href="#0">Йога для начинающих в домашних условиях</a></h2>
 					<time class="datetime">10 июня 2019</time>
@@ -101,8 +102,8 @@
 			<article class="content">
 				<img class="content-image" src="img/last-post3.jpg" alt="Девушка на музыкальном фестивале среди толпы">
 				<div class="content-text">
-					<ul class="content-item">
-						<li><a href="#0" class="link-tag">music</a></li>
+					<ul class="content-list">
+						<li class="list-item"><a href="#0" class="link-tag">music</a></li>
 					</ul>
 					<h2><a class="subject" href="#0">Лучшие музыкальные фестивали этого лета</a></h2>
 					<time class="datetime">10 июня 2019</time>
@@ -117,9 +118,9 @@
 			<article class="content">
 				<img class="content-image" src="img/last-post4.jpg" alt="Кулинарные блюда стоят на столе">
 				<div class="content-text">
-					<ul class="content-item">
-						<li><a href="#0" class="link-tag">lyfestyle</a></li>
-						<li><a href="#0" class="link-tag">food</a></li>
+					<ul class="content-list">
+						<li class="list-item"><a href="#0" class="link-tag">lyfestyle</a></li>
+						<li class="list-item"><a href="#0" class="link-tag">food</a></li>
 					</ul>
 					<h2><a class="subject" href="#0">Наукоёмкий подход к кулинарии</a></h2>
 					<time class="datetime">10 июня 2019</time>
@@ -131,10 +132,10 @@
 			<article class="content">
 				<img class="content-image" src="img/last-post5.jpg" alt="Интерьерная подушка лежит на стуле">
 				<div class="content-text">
-					<ul class="content-item">
-						<li><a href="#0" class="link-tag">lyfestyle</a></li>
-						<li><a href="#0" class="link-tag">interior</a></li>
-						<li><a href="#0" class="link-tag">art</a></li>
+					<ul class="content-list">
+						<li class="list-item"><a href="#0" class="link-tag">lyfestyle</a></li>
+						<li class="list-item"><a href="#0" class="link-tag">interior</a></li>
+						<li class="list-item"><a href="#0" class="link-tag">art</a></li>
 					</ul>
 					<h2><a class="subject" href="#0">Делаем модные принты на подушках для интерьера</a></h2>
 					<time class="datetime">10 июня 2019</time>
@@ -209,14 +210,14 @@
 					Теги
 				</h2>
 				<ul class="tags">
-					<li><a href="#0" class="tag">Fashion</a></li>
-					<li><a href="#0" class="tag">Music</a></li>
-					<li><a href="#0" class="tag">Lifestyle</a></li>
-					<li><a href="#0" class="tag">Art</a></li>
-					<li><a href="#0" class="tag">Interior</a></li>
-					<li><a href="#0" class="tag">Travel</a></li>
-					<li><a href="#0" class="tag">Food</a></li>
-					<li><a href="#0" class="tag">Health</a></li>
+					<li class="link-tags"><a href="#0" class="tag">Fashion</a></li>
+					<li class="link-tags"><a href="#0" class="tag">Music</a></li>
+					<li class="link-tags"><a href="#0" class="tag">Lifestyle</a></li>
+					<li class="link-tags"><a href="#0" class="tag">Art</a></li>
+					<li class="link-tags"><a href="#0" class="tag">Interior</a></li>
+					<li class="link-tags"><a href="#0" class="tag">Travel</a></li>
+					<li class="link-tags"><a href="#0" class="tag">Food</a></li>
+					<li class="link-tags"><a href="#0" class="tag">Health</a></li>
 				</ul>
 			</section>
 			<section class="aside-section">
@@ -224,12 +225,12 @@
 					Темы
 				</h2>
 					<ul class="topics">
-						<li><a class="topics-link" href="#0">Красота</a><span class="count">12</span></li>
-						<li><a class="topics-link" href="#0">Здоровье</a><span class="count">4</span></li>
-						<li><a class="topics-link" href="#0">Образ жизни</a><span class="count">145</span></li>
-						<li><a class="topics-link" href="#0">Музыка</a><span class="count">28</span></li>
-						<li><a class="topics-link" href="#0">Спорт</a><span class="count">62</span></li>
-						<li><a class="topics-link" href="#0">Йога</a><span class="count">8</span></li>
+						<li class="topic-item"><a class="topics-link" href="#0">Красота</a><span class="count">12</span></li>
+						<li class="topic-item"><a class="topics-link" href="#0">Здоровье</a><span class="count">4</span></li>
+						<li class="topic-item"><a class="topics-link" href="#0">Образ жизни</a><span class="count">145</span></li>
+						<li class="topic-item"><a class="topics-link" href="#0">Музыка</a><span class="count">28</span></li>
+						<li class="topic-item"><a class="topics-link" href="#0">Спорт</a><span class="count">62</span></li>
+						<li class="topic-item"><a class="topics-link" href="#0">Йога</a><span class="count">8</span></li>
 					</ul>
 			</section>
 		</aside>
@@ -246,7 +247,7 @@
 						<h2 class="product-subject">Подушки на диван</h2>
 						<p class="product-text">Набор из двух подушек с модными принтами. Видео о создании <a href="#0" class="all">здесь</a>.</p>
 						<div class="price-card">
-							<ul class="price-item">
+							<ul class="price-list">
 								<li><span class="price">1000 ₽</span></li>
 								<li><span class="price new-price">800 ₽</span></li>
 							</ul>
@@ -264,7 +265,7 @@
 						<h2 class="product-subject">Кукла «Зайчик»</h2>
 						<p class="product-text">Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена <a href="#0" class="all">весенняя серия постов</a> в блоге и несколько подкастов.</p>
 						<div class="price-card">
-							<ul class="price-item">
+							<ul class="price-list">
 								<li><span class="price new-price">3500 ₽</span></li>
 							</ul>
 							<button class="btn btn-product" type="submit">В магазин</button>
@@ -281,7 +282,7 @@
 						<h2 class="product-subject">Шестиугольная рамка</h2>
 						<p class="product-text">Необычная рамка для украшения дома из видео <a href="#0" class="all">«Как сделать рамку из подручных средств за 30 минут»</a></p>
 						<div class="price-card">
-							<ul class="price-item">
+							<ul class="price-list">
 								<li><span class="price">500 ₽</span></li>
 								<li><span class="price new-price">400 ₽</span></li>
 							</ul>
@@ -294,9 +295,9 @@
 	</div>
 	<footer class="footer">
 		<ul class="socials">
-			<li><a class="social-dribbble" href="#0"><span class="visually-hidden">Dribbble</span></a></li>
-			<li><a class="social-pinterest" href="#0"><span class="visually-hidden">Pinterest</span></a></li>
-			<li><a class="social-tumblr" href="#0"><span class="visually-hidden">Tumbler</span></a></li>
+			<li class="social-item"><a class="social-dribbble" href="#0"><span class="visually-hidden">Dribbble</span></a></li>
+			<li class="social-item"><a class="social-pinterest" href="#0"><span class="visually-hidden">Pinterest</span></a></li>
+			<li class="social-item"><a class="social-tumblr" href="#0"><span class="visually-hidden">Tumbler</span></a></li>
 		</ul>
 		<p class="row"><a class="row-link" href="#0">Copyright © 2009–2019 City Blog LLC.</a></p>
 	</footer>
