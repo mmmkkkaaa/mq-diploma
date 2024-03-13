@@ -1033,7 +1033,7 @@ body {
 		width: 23px;
 		height: 21px;
 		align-self: center;
-		left: 60%;
+		left: 45%;
 	}
 
 	.burger {
@@ -1041,7 +1041,6 @@ body {
 		width: 100%;
 		background-color: #ffffff;
 		height: 3px;
-		left: -60px;
 		top: 9px;
 	}
 
@@ -1052,7 +1051,6 @@ body {
 		width: 100%;
 		background-color: #ffffff;
 		height: 3px;
-		left: -60px;
 	}
 
 	.header-burger::before {
