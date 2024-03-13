@@ -207,8 +207,7 @@ body {
 }
 
 .content-image {
-	background-size: cover;
-	background-color: #eff6f1;
+	width: 100%;
 }
 
 .content:last-child {
@@ -523,6 +522,9 @@ body {
 .product-image {
 	display: block;
 	margin: auto;
+	max-width: 100%;
+	height: auto;
+
 }
 
 .card {
@@ -936,7 +938,7 @@ body {
 
 	.content:not(:last-child):after {
 		content: "";
-		width: 393px;
+		width: 100%;
 		height: 4px;
 		position: absolute;
 		background-color: #eeeeee;
@@ -1004,5 +1006,232 @@ body {
 
 	.row {
 		margin: 50px auto 36px;
+	}
+}
+@media (max-width: 640px) {
+	.header {
+		padding: 31px 15px 218px;
+		background-image: url("../img/banner-mobile.jpg");
+	}
+
+	.header-row {
+		width: 360px;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.logo {
+		width: 269px;
+		margin: 174px auto 0;
+		order: 1;
+	}
+
+	.header-burger {
+		display: block;
+		position: relative;
+		width: 23px;
+		height: 21px;
+		align-self: center;
+		left: 60%;
+	}
+
+	.burger {
+		position: absolute;
+		width: 100%;
+		background-color: #ffffff;
+		height: 3px;
+		left: -60px;
+		top: 9px;
+	}
+
+	.header-burger::before,
+	.header-burger::after {
+		content: "";
+		position: absolute;
+		width: 100%;
+		background-color: #ffffff;
+		height: 3px;
+		left: -60px;
+	}
+
+	.header-burger::before {
+		top: 0;
+	}
+
+	.header-burger::after {
+		bottom: 0;
+	}
+
+	.nav-bar {
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		margin: -1px;
+		padding: 0;
+		border: 0;
+		clip: rect(0 0 0 0);
+		overflow: hidden;
+	}
+
+	.slogan {
+		font-size: 26px;
+		line-height: 36px;
+		width: 293px;
+		margin: 43px auto 0;
+		order: 2;
+	}
+
+	.trends {
+		margin-top: 40px;
+	}
+
+	.trends-title {
+		font-size: 16px;
+		margin: 10px 0 36px;
+	}
+
+	.trends-title::after {
+		content: "";
+		width: 67px;
+		height: 3px;
+		margin: 9px auto 24px;
+	}
+
+	.trends-content {
+		flex-wrap: wrap;
+		margin-bottom: 45px;
+	}
+
+	.trend {
+		padding: 0 14px 16px;
+		width: 100%;
+		min-height: 330px;
+		margin-bottom: 2px;
+	}
+
+	.trend:last-child {
+		margin-bottom: 0;
+	}
+
+	.trend-text {
+		padding: 35px 30px 22px 30px;
+		line-height: 20px;
+	}
+
+	.trend-subject {
+		margin-top: 11px;
+		font-size: 16px;
+	}
+
+	.text {
+		width: 100%;
+	}
+
+	.main {
+		width: 100%;
+		margin: 0 15px;
+	}
+
+	.content {
+		margin-bottom: 0;
+		flex-wrap: wrap;
+		position: relative;
+		margin-top: 41px;
+	}
+
+	.content:first-child {
+		margin-top: 0;
+	}
+
+	.content:not(:last-child):after {
+		content: "";
+		width: 100%;
+		height: 4px;
+		position: absolute;
+		background-color: #eeeeee;
+		bottom: -18px;
+	}
+
+	.content-text {
+		margin-left: 0;
+		margin-top: 15px;
+		width: 100%;
+	}
+
+	.subject {
+		font-size: 16px;
+		margin: 15px 0 23px;
+	}
+
+	.list-item {
+		margin-right: 20px;
+		margin-bottom: 0;
+	}
+
+	.link-tag {
+		font-size: 14px;
+	}
+
+	.desc {
+		font-size: 15px;
+		margin-top: 19px;
+	}
+
+	.desc-text {
+		margin-top: 0;
+		margin-bottom: 12px;
+	}
+	.aside {
+		width: 330px;
+		margin-left: 0;
+	}
+	.aside-title {
+		font-size: 16px;
+		margin-top: 45px;
+	}
+
+	.aside-title::after {
+		margin: 14px auto 23px;
+	}
+
+	.aside-text {
+		margin-top: 22px;
+	}
+	
+	.aside-text:nth-child(2) {
+		margin-top: 0;
+	}
+
+	.products {
+		margin-top: 44px;
+	}
+
+	.products-container {
+		flex-wrap: wrap;
+		margin: 0 15px;
+	}
+
+	.products-content {
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 28px;
+	}
+
+	.products-content:last-child {
+		margin-bottom: 0;
+	}
+
+	.footer {
+		margin: 43px 15px 0;
+	}
+
+	.socials {
+		width: 100%;
+		
+	}
+
+	.row {
+		margin: 49px auto 46px;
 	}
 }
