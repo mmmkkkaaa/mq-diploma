@@ -931,6 +931,7 @@ body {
 		margin-left: 0;
 		margin-top: 15px;
 		width: 100%;
+		flex-direction: column;
 	}
 
 	.list-item {
@@ -1142,6 +1143,7 @@ body {
 		margin-left: 0;
 		margin-top: 15px;
 		width: 100%;
+		flex-direction: column;
 	}
 
 	.subject {
